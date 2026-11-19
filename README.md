@@ -14,7 +14,7 @@ On 2,189 held-out draws, the Transformer showed **no statistically significant a
 
 ## Related work
 
-Tao and Barkeshli (University of Maryland, College Park) showed that Transformers can predict sequences from certain pseudorandom number generators in a controlled setting. Our experiment uses historical lottery draws. [Learning Pseudorandom Numbers with Transformers (ICLR 2026)](https://proceedings.iclr.cc/paper_files/paper/2026/hash/50eb39ab717507cccbe2b8590de32030-Abstract-Conference.html)
+This experiment was inspired by [*Learning Pseudorandom Numbers with Transformers*](https://proceedings.iclr.cc/paper_files/paper/2026/hash/50eb39ab717507cccbe2b8590de32030-Abstract-Conference.html) (Tao and Barkeshli, University of Maryland, College Park, ICLR 2026). They studied sequences produced by known pseudorandom number generators in controlled experiments. We asked whether the previous 20 real Sportloto draws could help predict the next draw better than chance.
 
 ## Reproduce
 
