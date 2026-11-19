@@ -1,0 +1,2 @@
+# Preserve the checksums of the frozen archive files across platforms.
+data/*.csv -text whitespace=cr-at-eol
