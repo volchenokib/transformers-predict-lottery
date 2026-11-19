@@ -12,6 +12,10 @@ On 2,189 held-out draws, the Transformer showed **no statistically significant a
 | Frequency baseline | 0.774 |
 | Uniform random (expected) | 0.800 |
 
+## Related work
+
+Tao and Barkeshli (University of Maryland, College Park) showed that Transformers can predict sequences from certain pseudorandom number generators in a controlled setting. Our experiment uses historical lottery draws. [Learning Pseudorandom Numbers with Transformers (ICLR 2026)](https://proceedings.iclr.cc/paper_files/paper/2026/hash/50eb39ab717507cccbe2b8590de32030-Abstract-Conference.html)
+
 ## Reproduce
 
 Run from the root of a fresh checkout with [uv](https://docs.astral.sh/uv/). The commands use Python 3.12 and PyTorch 2.15.0 on CPU.
